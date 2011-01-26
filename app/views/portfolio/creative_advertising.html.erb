@@ -1,0 +1,71 @@
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+  // Galleria.loadTheme('/javascripts/galleria/src/themes/fullscreen/galleria.fullscreen.js');
+  Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
+  //  Galleria.debug = true
+  var data = [
+  {
+    image: '/images/03_creative_advertising/portfolio35.jpg'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio36.jpg',
+    title: 'Neutrogena PeppeRidge Farm',
+    description: 'InStyle Magazine Ad Design'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio37.jpg',
+    title: 'Apple & RecycleBank Posters',
+    description: 'Pitch to Apple Environmental Campaign'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio38.jpg',
+    title: 'DHL Ads',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio39.jpg',
+    title: 'Various Billboard Ads',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio40.jpg',
+    title: 'Various Billboard Ads',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio41.jpg',
+    title: 'Guerilla Advertising',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio42.jpg',
+    title: 'NRDC Guerilla Advertising',
+    description: 'OneShow Winner'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio43.jpg',
+    title: 'HybridCars Ads',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio44.jpg',
+    title: 'NRDC Ads',
+    description: 'College Project'
+  },
+  {
+    image: '/images/03_creative_advertising/portfolio45.jpg',
+    title: 'HIV Campaign Poster',
+    description: 'Visual Aids Competition Winner'
+  }
+  ];
+  $('#gallery').galleria({
+    transition: 'fade',
+    image_crop: true,
+    data_source: data
+  });
+
+});
+
+</script>
+
+<div id="gallery"></div>

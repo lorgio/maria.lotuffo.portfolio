@@ -1,0 +1,16 @@
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+  // Galleria.loadTheme('/javascripts/galleria/src/themes/fullscreen/galleria.fullscreen.js');
+  Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
+  //  Galleria.debug = true
+  var data = [
+  ];
+  $('#gallery').galleria({
+    transition: 'fade',
+    image_crop: true,
+    data_source: data
+  });
+
+});
+</script>
+<div id="gallery"></div>

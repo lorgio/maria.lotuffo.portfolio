@@ -1,0 +1,101 @@
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+  // Galleria.loadTheme('/javascripts/galleria/src/themes/fullscreen/galleria.fullscreen.js');
+  Galleria.loadTheme('/javascripts/galleria/src/themes/classic/galleria.classic.js');
+  //  Galleria.debug = true
+var data = [
+{
+     image: '/images/01_graphic_design/portfolio2.jpg',
+     title: 'my first image',
+     description: 'Lorem ipsum caption'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio3.jpg',
+     title: 'Natura Vitamins',
+     description: 'Package Design'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio4.jpg',
+     title: 'Natura Vitamins and Soaps',
+     description: 'Packaging Design'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio5.jpg',
+     title: 'Discovery Magazine',
+     description: 'Magazine Redesign and Branding '
+ },
+ {
+     image: '/images/01_graphic_design/portfolio6.jpg',
+     title: 'Discovery Magazine',
+     description: 'Environmental Issue and Contents Page'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio7.jpg',
+     title: 'Gaugossian Gallery Invitation',
+     description: 'Package Design'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio8.jpg',
+     title: 'NRDC Branding Redesign',
+     description: 'One Show Competition'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio9.jpg',
+     title: 'Atlanta Recycles Campaign',
+     description: 'Logo Design and Branding'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio10.jpg',
+     title: 'Gconomy Credit Card Design and Logo',
+     description: 'RecycleBank Marketing and Branding'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio11.jpg',
+     title: 'RecycleBank Canvas Bags',
+     description: 'Promotional Items'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio12.jpg',
+     title: 'RecycleBank Branding and Guidelines',
+     description: 'Logo and Brand Creation'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio13.jpg',
+     title: 'Sustainability Report 2007',
+     description: 'Concept and Design'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio14.jpg',
+     title: 'RecycleBank Activation Postcards',
+     description: 'Recycled Marketing Materials'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio15.jpg',
+     title: 'RecycleBank Welcome Postcard',
+     description: 'Recycled Marketing Materials'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio16.jpg',
+     title: 'InStyle Calendar 2007',
+     description: 'Marketing Materials'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio17.jpg',
+     title: 'InStyle Event Postcards',
+     description: 'Marketing Materials'
+ },
+ {
+     image: '/images/01_graphic_design/portfolio18.jpg',
+     title: 'Paul Rand BookCover ReDesign',
+     description: 'CD Case Design for Music Band'
+ }
+];
+    $('#gallery').galleria({
+      transition: 'fade',
+      image_crop: true,
+      data_source: data
+    });
+
+  });
+</script>
+<div id="gallery"></div>
