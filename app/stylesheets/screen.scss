@@ -26,24 +26,40 @@ body {
   width:75%;
   margin-left:auto;
   margin-right:auto;  
+  a {
+    color: white;
+  }
 }
 h1{
   line-height:1.1;
   letter-spacing:-1px;
 }
-a {
-  color:#fff;
-  }
-  #gallery{ 
-    width:800px;
-    height:600px;
-    padding-left: 186px;
-  }
+
+a { color:#fff; font-family:Georgia,serif; font-size:large}
+a:link {color:white; text-decoration: none; }
+a:visited {color: #660066;}
+a:hover {text-decoration: none; color: #ff9900;
+font-weight:bold;}
+a:active {color: red;text-decoration: none}  
+
+#gallery{ 
+  width:800px;
+  height:600px;
+  padding-left: 186px;
+}
 .content{
   color:#eee;font:14px/1.4 "helvetica neue", arial,sans-serif;
   width:620px;
   margin:20px auto;
   }
         
+#hyperlinks {
+  position:absolute;
+  margin-left: 483px; 
+  margin-top: 460px;
+}
 
-    
+#portfolio_hyperlinks {
+  position:absolute;
+  margin-left: 380px; 
+}

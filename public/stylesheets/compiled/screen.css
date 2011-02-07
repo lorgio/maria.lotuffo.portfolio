@@ -1317,29 +1317,72 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 29, ../../../app/stylesheets/screen.scss */
+body a {
+  color: white;
+}
 
-/* line 30, ../../../app/stylesheets/screen.scss */
+/* line 33, ../../../app/stylesheets/screen.scss */
 h1 {
   line-height: 1.1;
   letter-spacing: -1px;
 }
 
-/* line 34, ../../../app/stylesheets/screen.scss */
+/* line 38, ../../../app/stylesheets/screen.scss */
 a {
   color: #fff;
+  font-family: Georgia,serif;
+  font-size: large;
 }
 
-/* line 37, ../../../app/stylesheets/screen.scss */
+/* line 39, ../../../app/stylesheets/screen.scss */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 40, ../../../app/stylesheets/screen.scss */
+a:visited {
+  color: #660066;
+}
+
+/* line 41, ../../../app/stylesheets/screen.scss */
+a:hover {
+  text-decoration: none;
+  color: #ff9900;
+  font-weight: bold;
+}
+
+/* line 43, ../../../app/stylesheets/screen.scss */
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+/* line 45, ../../../app/stylesheets/screen.scss */
 #gallery {
   width: 800px;
   height: 600px;
   padding-left: 186px;
 }
 
-/* line 42, ../../../app/stylesheets/screen.scss */
+/* line 50, ../../../app/stylesheets/screen.scss */
 .content {
   color: #eee;
   font: 14px/1.4 "helvetica neue", arial, sans-serif;
   width: 620px;
   margin: 20px auto;
+}
+
+/* line 56, ../../../app/stylesheets/screen.scss */
+#hyperlinks {
+  position: absolute;
+  margin-left: 483px;
+  margin-top: 460px;
+}
+
+/* line 62, ../../../app/stylesheets/screen.scss */
+#portfolio_hyperlinks {
+  position: absolute;
+  margin-left: 380px;
 }
