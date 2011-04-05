@@ -17,9 +17,10 @@
 
 body {
   background: url('/images/00_portfolio.jpg') no-repeat center top;
-  background-color: #000000;
+  // background-color: #000000;
   color: #ffffff;  
-  max-width:1400px;
+  max-width:140px;
+  width:140px;
   min-height:80%;
   min-width:980px;
   position:relative;
@@ -37,8 +38,8 @@ h1{
 
 a { color:#fff; font-family:Georgia,serif; font-size:large}
 a:link {color:white; text-decoration: none; }
-a:visited {color: #660066;}
-a:hover {text-decoration: none; color: #ff9900;
+a:visited {color: #424141;}
+a:hover {text-decoration: none; color: white;
 font-weight:bold;}
 a:active {color: red;text-decoration: none}  
 
@@ -54,12 +55,12 @@ a:active {color: red;text-decoration: none}
   }
         
 #hyperlinks {
-  position:absolute;
-  margin-left: 483px; 
+  position:relative;
+  margin-left: 309px; 
   margin-top: 460px;
 }
 
 #portfolio_hyperlinks {
   position:absolute;
   margin-left: 380px; 
-}
+		}

@@ -1307,9 +1307,9 @@ form.inline p {
 /* line 18, ../../../app/stylesheets/screen.scss */
 body {
   background: url("/images/00_portfolio.jpg") no-repeat center top;
-  background-color: #000000;
   color: #ffffff;
-  max-width: 1400px;
+  max-width: 140px;
+  width: 140px;
   min-height: 80%;
   min-width: 980px;
   position: relative;
@@ -1317,56 +1317,56 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 29, ../../../app/stylesheets/screen.scss */
+/* line 30, ../../../app/stylesheets/screen.scss */
 body a {
   color: white;
 }
 
-/* line 33, ../../../app/stylesheets/screen.scss */
+/* line 34, ../../../app/stylesheets/screen.scss */
 h1 {
   line-height: 1.1;
   letter-spacing: -1px;
 }
 
-/* line 38, ../../../app/stylesheets/screen.scss */
+/* line 39, ../../../app/stylesheets/screen.scss */
 a {
   color: #fff;
   font-family: Georgia,serif;
   font-size: large;
 }
 
-/* line 39, ../../../app/stylesheets/screen.scss */
+/* line 40, ../../../app/stylesheets/screen.scss */
 a:link {
   color: white;
   text-decoration: none;
 }
 
-/* line 40, ../../../app/stylesheets/screen.scss */
+/* line 41, ../../../app/stylesheets/screen.scss */
 a:visited {
-  color: #660066;
+  color: #424141;
 }
 
-/* line 41, ../../../app/stylesheets/screen.scss */
+/* line 42, ../../../app/stylesheets/screen.scss */
 a:hover {
   text-decoration: none;
-  color: #ff9900;
+  color: white;
   font-weight: bold;
 }
 
-/* line 43, ../../../app/stylesheets/screen.scss */
+/* line 44, ../../../app/stylesheets/screen.scss */
 a:active {
   color: red;
   text-decoration: none;
 }
 
-/* line 45, ../../../app/stylesheets/screen.scss */
+/* line 46, ../../../app/stylesheets/screen.scss */
 #gallery {
   width: 800px;
   height: 600px;
   padding-left: 186px;
 }
 
-/* line 50, ../../../app/stylesheets/screen.scss */
+/* line 51, ../../../app/stylesheets/screen.scss */
 .content {
   color: #eee;
   font: 14px/1.4 "helvetica neue", arial, sans-serif;
@@ -1374,14 +1374,14 @@ a:active {
   margin: 20px auto;
 }
 
-/* line 56, ../../../app/stylesheets/screen.scss */
+/* line 57, ../../../app/stylesheets/screen.scss */
 #hyperlinks {
-  position: absolute;
-  margin-left: 483px;
+  position: relative;
+  margin-left: 309px;
   margin-top: 460px;
 }
 
-/* line 62, ../../../app/stylesheets/screen.scss */
+/* line 63, ../../../app/stylesheets/screen.scss */
 #portfolio_hyperlinks {
   position: absolute;
   margin-left: 380px;
